@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif !important;
+    background: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    color: #666;
+}
+h2{
+    font-size: 23px;
+    color: #000;
+    line-height: 1.2em;
+    font-weight: 500;
+    font-family: 'Montserrrat', sans-serif !important;
+}
+h4{
+    font-size: 18px;
+}
+.top{
+    position: relative;
+    background: url('../image/JewelBoxNew1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    max-height: 600px;
+    opacity: 75%;
+}
+.top:after {
+    content:'';
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100%;
+    height:100%;
+    display: block;
+    z-index: 0;
+    /* background: #595959c0; */
+    background: rgba(0, 0, 0, 0.6);
+}
+.top .wrapper{
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    height: 100%;
+}
+.wrapper {
+    max-width: 1280px;
+}
+.wrapper{
+    width: 100%;
+}
+.top .phone{
+    position: absolute;
+    top: 20%;
+    right: 0;
+    z-index: 10;
+}
+.cust-btn{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: transparent;
+    margin-top: 50px;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid #FD8931;
+}
+.flex-center{
+    display: flex;
+    align-items: center;
+}
+.visible-lg-block{
+    margin-top: 5%;
+}
+.btn-scroll{
+    position: absolute;
+    top: 60%;
+    left: 0;
+}
+.padding-t-b-30{
+    padding: 30px 0; 
+}
+.flex-mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btns a{
+    display: block;
+    width: 100%;
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    color: #FFF !important;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px 0;
+}
+.info{
+    position: relative;
+    background-image: url('../image/OutdoorDining.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.info::after{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    display: block;
+    background: #ffffffdc;
+}
+.info .wrapper{
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    height: 100%;
+}
+.info .img-hold{
+    background: #fcc33c;
+    width: 100%;
+}
+.info h3{
+    font-weight: 700;
+    color: #000;
+}
+.fr-view strong{
+    font-weight: 700;
+}
+.gallery-row{
+    display: flex;
+    flex-direction: row;
+}
+.gallery-row a img{
+    transition: all .3s ease;
+}
+.fr-view img{
+    position: relative;
+    max-width: 100%;
+}
+.turnkey{
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    color: #FFF;
+    position: relative;
+}
+.turnkey h2{
+    color: #fff;
+}
+.turnkey .cust-btn{
+    background: #fff;
+    color: #000;
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    margin-left: 30% !important;
+}
+.prop .amenities{
+    color: #000;
+}
+.amenities p{
+    font-family: 'Montserrat', sans-serif;
+}
+.form-group{
+    margin-bottom: 15px ;
+}
+.contact form{
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display: block;
+    padding: 30px;
+    max-width: 800px;
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    color: #ffff;
+
+} 
+.contact form h2{
+    color: #fff;
+}
+
+.contact form *{
+    color: #fff;
+}
+.contact form input{
+    margin-bottom: 15px;
+    border-bottom: 2px solid #fff;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-top: 0 !important;
+    width: 100%;
+    background: transparent !important;
+}
+label{
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.contact form select{
+    margin-bottom: 15px !important;
+    border-bottom: 2px solid #fff;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-top: 0 !important;
+    background: transparent !important;
+    width: 100%;
+    box-shadow: none;
+}
+.contact form input::placeholder{
+    color: #fff !important;
+}
+.contact form button{
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: #fff;
+    color: #000;
+}
+.contact img{
+    width: auto;
+    max-height: 300px;
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+}
+.disc1 a{
+    color: #000;
+}
+.black-bg{
+    background: #000;
+}
+.footer-cont{
+    padding: 30px 0;
+    color: #fff;
+    font-size: 15px;
+}
